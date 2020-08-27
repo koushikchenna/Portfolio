@@ -1,0 +1,71 @@
+#nameID {
+    text-align: center;
+}
+%common-align{
+    text-align: center;
+ }
+$primary-color: #ffebcd;
+body {
+    background-color: primary-color;
+}
+
+div.picture{
+    margin: 7px;
+    border: 2px solid #ffebcd;
+    float: left;
+}
+div.picture:hover {
+    border: 1px solid #777;
+}
+div.picture img {
+    width: 100%;
+    height: auto;
+}
+p.aboutfont{
+    font-size: 37px;
+    padding-left: 5px;
+}
+h2.title {
+    @extend common-align;
+}
+.container {
+    text-color: black;
+    background-color: #ffebcd;
+}
+div.col-4 {
+    background-color: floralwhite;
+}
+div.col-6{
+    background-color: floralwhite;
+}
+form.class{
+    background-color: #ffebcd;
+}
+form.form{
+    text-align: center;
+    background-color: #ffebcd;
+}
+div.col-sm{
+    text-align: center;
+}
+h1.maintxt{
+    text-align: center;
+}
+table, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th{
+    text-align: center;
+}
+@media only screen and (max-width: 200px){
+    body{
+        text-align:left;
+    }
+}
+nav{
+    ul{
+        margin:0;
+        padding:0;
+    }
+}
